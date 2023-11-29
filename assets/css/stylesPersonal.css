@@ -1,0 +1,21 @@
+.pagination-links {
+    font-size: 16px;
+    letter-spacing: 16px;
+}
+
+.chat-container {
+    position: relative;
+    overflow-y: auto;
+    /* Menambahkan scrollbar secara otomatis ketika konten melebihi tinggi textarea */
+    max-height: 200px;
+    /* Membatasi tinggi maksimum textarea */
+}
+
+#list-chats {
+    max-height: 400px;
+    /* Tentukan tinggi maksimum yang diinginkan */
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Aktifkan scroll vertikal jika konten melebihi ketinggian maksimum */
+    transition: opacity 0.3s ease-in-out;
+}
